@@ -1,0 +1,385 @@
+
+
+:root {
+  
+  --background: black;
+  --background_input: rgba(128, 128, 128, 0.377);
+  --forebackground: rgba(71, 70, 70, 0.353);
+  --text: white;
+  --text_white_grey: rgb(210, 205, 205);
+  --text_grey:  rgb(145, 143, 143);
+  --toggler: white;
+  --text_paragraf: rgb(145, 143, 143);
+}
+
+
+[data-theme='light'] {
+
+  --background: white;
+  --background_input: rgba(48, 48, 48, 0.794);
+  --forebackground: rgba(48, 48, 48, 0.794);
+  --text:white;
+  --text_white_grey: black;
+  --toggler: black;
+  --text_paragraf: black;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+.App{
+  background: var(--background);
+  min-height: 100vh; 
+}
+
+.toggler{
+  position: fixed;
+  top: 4.5%;
+  right: 4%;
+}
+
+.toggler img{
+  width: 30px;
+  
+}
+
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+
+  padding-top: 36px;
+  margin-bottom: 100px;
+}
+
+input{
+
+  width: 300px;
+  height: 54px;
+  border-radius: 20px;
+  padding: 15px 46px;
+  border: none;
+  background-color: var(--background_input);
+  color: var(--text);
+  outline: none;
+  font-size: 18px;
+
+}
+
+input[type=text]{
+  
+  background-image: url('./img/search.png');
+  background-repeat: no-repeat;
+  background-position: 18px 20px;
+  font-family: 'sans-serif';
+  font-size: 24px;
+      
+}
+
+
+
+.empty_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.empty_div img {
+
+
+  width: 180px;
+
+}
+
+
+.country_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+
+}
+
+
+
+.country_info h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color: var(--text_white_grey);
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
+
+.country_info h2 {
+   margin: 0;
+   font-family: sans-serif;
+   margin-right: 10px;
+   color: var(--text);
+   font-size: 50px;
+   color: var(--toggler)
+}
+
+.country_info div {
+   display: flex;
+   justify-content: space-evenly;
+   width: 90px;
+   align-items: center;
+;
+}
+
+
+.country_info .Temperature_info p{
+   margin: 0; 
+   font-size: 50px;
+   color: var(--toggler)
+}
+
+.country_info .paragraf {
+  font-size: 22px;
+  color: var(--text_paragraf);
+}
+
+.country_info .name_container p {
+  color: var(--toggler);
+}
+
+
+.forecast_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+}
+
+
+.forecast_container p {
+  color: var(--text_paragraf);
+}
+
+
+.forecast_container div {
+  display: flex;
+  flex-direction: column;
+  background: var(--forebackground);
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.forecast_container h2 {
+  color: var(--text); 
+}
+
+
+@media screen and (max-width: 1690px) {
+
+  .forecast_container div{
+    width: 200px;
+    height: 260px;
+  }
+  
+}
+
+
+@media screen and (max-width: 1390px) { 
+
+
+  .forecast_container div {
+    width: 170px;
+    height: 200px;
+   
+  }
+
+  .forecast_container img {
+    width: 100px;
+
+  }
+
+  .forecast_container h2 {
+    font-size: 22px;
+  }
+  
+}
+
+
+@media  screen and (max-width: 1200px) {
+  
+  .App {
+    height: 100%;
+  }
+  .forecast_container div {
+    width: 140px;
+    height: 200px;
+  }
+
+
+  .forecast_container img {
+    width: 90px;
+
+  }
+
+  .forecast_container h2 {
+    font-size: 22px;
+  }
+  
+  .forecast_container p {
+    font-size: 12px;
+  }
+  
+}
+
+@media  screen and (max-width: 1000px) {
+
+  .App {
+    height: 100%;
+  }
+  .forecast_container div {
+    width: 120px;
+    height: 190px;
+  }
+
+
+
+  .forecast_container img {
+    width: 90px;
+
+  }
+
+  .forecast_container h2 {
+    font-size: 22px;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 870px){
+
+  .App {
+    height: 100%;
+  }
+
+  .forecast_container{
+    flex-direction: column;
+  }
+
+  .forecast_container div{
+    width: 360px;
+    height: 280px;
+    margin-bottom: 30px;
+  
+  }
+
+
+
+  .country_info h1{
+    font-size: 60px;
+  }
+  
+  .forecast_container span p {
+    font-size: 18px;
+  }
+  
+  .forecast_container span h2{
+    font-size: 24px;
+  }
+  
+  .forecast_container div span img {
+  
+    width: 110px;
+  }
+  
+  .country_info .Temperature_info {
+    padding-top: 50px;
+  }
+
+  
+}
+
+@media  screen and (max-width: 500px) {
+  .toggler i {
+    font-size: 30px;
+  }
+  .searchbar input{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  .App {
+    height: 100%;
+  }
+  
+  .searchbar input{
+    width: 220px;
+  }
+
+
+  .country_info .Temperature_info {
+    padding-top: 50px;
+  }
+
+  .forecast_container{
+    margin-top: 150px;
+  }
+
+  .forecast_container > div{
+    width: 240px;
+    height: 200px;
+
+  
+  }
+
+  .forecast_container span img{
+
+    width: 20px;
+  }
+  
+  .forecast_container span p {
+    font-size: 18px;
+  }
+  
+  .forecast_container span h2{
+    font-size: 16px;
+  }
+  
+  .forecast_container div span img {
+  
+    width: 100px;
+  }
+
+  .country_info p {
+    font-size: 22px;
+  }
+  
+  .Temperature_info p {
+    
+    font-size: 40px;
+  }
+
+
+  .country_info .Temperature_info h2 {
+
+    font-size: 40px;
+  }
+
+  .toggler i {
+    font-size: 25px1;
+  }
+
+
+}
