@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/weatherfinder.github.io/static/css/main.14214887.css",
+    "main.js": "/weatherfinder.github.io/static/js/main.da03685e.js",
+    "static/js/787.7339c134.chunk.js": "/weatherfinder.github.io/static/js/787.7339c134.chunk.js",
+    "static/media/loader1.gif": "/weatherfinder.github.io/static/media/loader1.7895f8a98c07e6cb94c9.gif",
+    "static/media/sunny(2).png": "/weatherfinder.github.io/static/media/sunny(2).f794832ad72b90c61eb7.png",
+    "static/media/fog.png": "/weatherfinder.github.io/static/media/fog.1bb0de8da000d18df8cf.png",
+    "static/media/sunny.png": "/weatherfinder.github.io/static/media/sunny.be31f3d18335875a4548.png",
+    "static/media/thunderstroms-sunny-night.png": "/weatherfinder.github.io/static/media/thunderstroms-sunny-night.a0d2cdf3f8cb8ac2e8ac.png",
+    "static/media/snow.png": "/weatherfinder.github.io/static/media/snow.fd3278dd808b57fded43.png",
+    "static/media/thunderstroms.png": "/weatherfinder.github.io/static/media/thunderstroms.b304fe9598ea22625f6d.png",
+    "static/media/drizzle-night.png": "/weatherfinder.github.io/static/media/drizzle-night.324a38ad1e916a9256b1.png",
+    "static/media/drizzle.png": "/weatherfinder.github.io/static/media/drizzle.c019ced1cb78302e1410.png",
+    "static/media/verycloud.png": "/weatherfinder.github.io/static/media/verycloud.96822d799f45697e5435.png",
+    "static/media/clearcloudynight.png": "/weatherfinder.github.io/static/media/clearcloudynight.c348407983f32f0688ec.png",
+    "static/media/cloudy.png": "/weatherfinder.github.io/static/media/cloudy.d4063ef2375c99f5bfde.png",
+    "index.html": "/weatherfinder.github.io/index.html",
+    "main.14214887.css.map": "/weatherfinder.github.io/static/css/main.14214887.css.map",
+    "main.da03685e.js.map": "/weatherfinder.github.io/static/js/main.da03685e.js.map",
+    "787.7339c134.chunk.js.map": "/weatherfinder.github.io/static/js/787.7339c134.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14214887.css",
+    "static/js/main.da03685e.js"
+  ]
+}
