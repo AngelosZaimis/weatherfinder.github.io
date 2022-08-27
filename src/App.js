@@ -7,16 +7,7 @@ import { getIcon } from './ExportIcons';
 import useLocalStorage from 'use-local-storage';
 
 
-const days = [
-  { name: 'Monday'},
-  { name: 'Tuesday'},
-  { name: 'Wensday'},
-  { name: 'Thursday'},
-  { name: 'Friday'},
-  { name: 'Saturday'},
-  { name: 'Sunday'},
 
-]
 
 function App() {
   
@@ -88,10 +79,6 @@ function App() {
 
   }, [city])
 
-
-  const days = ['monday' , 'Tuesday', 'Thursday']
-
-  
 
   let isLoading = name === '' ? true : false ;
 
